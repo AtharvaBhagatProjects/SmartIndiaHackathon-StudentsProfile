@@ -1,0 +1,174 @@
+.proj {
+  height: 30vh;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 2vh;
+  filter: drop-shadow(5px 5px 5px rgb(187, 186, 186));
+  background-position: center;
+  margin: 2vh 0;
+
+  h1 {
+    font-size: 7vh;
+    margin: 0;
+  }
+
+  h3,
+  h4 {
+    margin: 1vh 0;
+  }
+
+  .StatusShow {
+    position: absolute;
+    right: 2vw;
+    top: 2vh;
+    background-color: gray;
+    padding: 0.5vh 2vw;
+    color: white;
+    border-radius: 15px;
+  }
+
+  .ActionButtons {
+    position: absolute;
+    right: 1vw;
+    display: flex;
+    width: fit-content;
+    bottom: 2vh;
+
+    div {
+      padding: 0.5vh 2vw;
+      color: white;
+      border-radius: 10px;
+      width: 10vw;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1vh;
+    }
+  }
+
+  .View {
+    background-color: rgb(140, 18, 165);
+  }
+
+  .Edit {
+    background-color: rgb(231, 16, 134);
+  }
+}
+
+
+
+.projSet {
+  padding: 2vh 2vw;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+
+  .proj {
+    width: 60%;
+    filter: drop-shadow(0px 0px 0px white);
+  }
+}
+
+.editor {
+  margin-top: 4vh;
+
+  span {
+    margin-top: 4vh;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    img {
+      height: 3vh;
+      width: 3vh;
+    }
+    .Bigger {
+      height: 25vh;
+      width: auto;
+    }
+    a {
+      width: 95%;
+      font-size: large;
+      text-decoration: underline;
+      color: rgb(10, 68, 243);
+    }
+  }
+}
+
+.descInput {
+  border: none;
+  outline: none;
+  margin-top: 0vh;
+  font-size: 2.5vh;
+  width: 95%;
+  font-weight: bold;
+  background-color: rgb(230, 230, 230);
+  padding: 1vh 1vw;
+  border-radius: 15px;
+}
+
+.road {
+  padding: 5vh;
+  width: 40%;
+
+  .roadObject {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    h1 {
+      cursor: pointer;
+      margin-right: 1vw;
+      height: 5vh;
+      width: 5vh;
+      text-align: center;
+      color: white;
+      border-radius: 50%;
+      background-color: rgb(215, 228, 198);
+    }
+  }
+}
+
+.GlobalProjects {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  .proj {
+    width: 47%;
+  }
+}
+
+.details{
+    h1 {
+      font-size: 8vh;
+      width: fit-content;
+      margin: 0;
+      background: linear-gradient(
+        to right,
+        rgb(1, 61, 150),
+        rgb(140, 0, 255),
+        rgb(255, 159, 4)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+}
+
+.Requests {
+  width: 80%;
+}
+
+.reqBox {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  h5 {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5vh 1vw;
+  }
+}

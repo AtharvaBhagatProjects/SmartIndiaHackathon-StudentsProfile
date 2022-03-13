@@ -1,0 +1,83 @@
+.dashbar {
+  background-color: rgb(7, 8, 19);
+  width: 98%;
+  height: 6vh;
+  display: flex;
+  position: fixed;
+  bottom: 1vw;
+  left: 1%;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  .dashlogo {
+    height: 5vh;
+  }
+  .create {
+    outline: none;
+    border: none;
+    height: 100%;
+    padding: 0 2vw;
+    font-weight: bolder;
+    font-size: 2vh;
+    background-color: rgb(235, 8, 95);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: rgb(177, 7, 72);
+    }
+  }
+
+  .navBox {
+    width: 3.5vw;
+    padding: 0 1vw;
+    height: 6vh;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    overflow: hidden;
+    border-radius: 10px;
+
+    img {
+      width: 1.5vw;
+      margin-right: 1.5vw;
+    }
+    display: flex;
+    align-items: center;
+    h3 {
+      margin: none;
+      color: white;
+    }
+
+    &:hover {
+      width: 11vw;
+      background-color: rgba(128, 128, 128, 0.538);
+    }
+  }
+
+  .navigator {
+    display: flex;
+  }
+}
+
+.board {
+  width: 100%;
+  z-index: 100;
+  height: 9vh;
+  position: fixed;
+  bottom: 0vw;
+  left: 0%;
+  background-color: rgba(255, 255, 255, 0.172);
+  backdrop-filter: blur(1rem);
+}
+
+.Component {
+  padding: 2vh;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}

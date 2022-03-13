@@ -1,0 +1,27 @@
+.Contain {
+}
+
+.ColleagueCard {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  position: relative;
+  filter: drop-shadow(5px 5px 5px grey);
+  overflow: hidden;
+  margin-top: 2vh;
+  img {
+    height: 28vh;
+    margin: 0vw 3vw 0vw -2vw;
+  }
+  h1,
+  h3,
+  h5 {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 3vh;
+  }
+}
